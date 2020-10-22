@@ -190,7 +190,7 @@ def team_names
   names = []
   names.push(data[:home][:team_names])
   names.push(data[:away][:team_names])
-  puts names
+  p names
 end
 
 def player_numbers(teamName)
