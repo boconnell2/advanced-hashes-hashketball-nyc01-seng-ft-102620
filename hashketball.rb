@@ -188,8 +188,8 @@ end
 def team_names
   data = game_hash
   names = []
-  names.push(data[:home][:team_names])
-  names.push(data[:away][:team_names])
+  names.push(data[:home][:team_name])
+  names.push(data[:away][:team_name])
   names
 end
 
