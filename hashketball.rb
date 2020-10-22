@@ -187,10 +187,10 @@ end
 
 def team_names
   data = game_hash
-  names = [nil]
-  names[0] = data[:home][:team_names]
+  names = []
+  names.push(data[:home][:team_names])
   names.push(data[:away][:team_names])
-  names
+  puts names
 end
 
 def player_numbers(teamName)
